@@ -1,0 +1,45 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+.nav
+{ 
+font-family: "Mulish";
+
+    display: flex;
+    justify-content: flex-end;
+   
+
+
+}
+.home
+{
+    color: orangered;
+}
+.explo h1
+{
+    text-align: center;
+    margin-top: 95px;
+    font-family: "Mulish";
+font-size: xx-large;
+font-size: 70px;
+    
+}
+.explo p
+{ margin-top: -20px;
+    text-align: center;  
+    font-family: "Mulish";
+    padding-top: 10px;
+
+}
+.btn
+{
+    border: solid;
+    width: 800px;
+   
+}
+.button
+{
+    margin: 10px;
+    margin-left: 70px;
+  
+}
