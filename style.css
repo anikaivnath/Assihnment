@@ -35,11 +35,57 @@ font-size: 70px;
 {
     border: solid;
     width: 800px;
+    margin-left: 250px;
+
+    border-radius: 10px;
+    margin-top: 50px;
+    padding: 10px;
    
 }
 .button
 {
-    margin: 10px;
+
     margin-left: 70px;
-  
+    
+ 
+}
+.btn input
+{
+    margin-left: 5px;
+}
+
+#ibtn
+{
+    padding: 10px;
+   
+    border-radius: 5px;
+    font-family: "Mulish";
+    background-color: aliceblue;
+ 
+}
+#fbtn
+{
+    padding: 10px;
+    padding-right: 100px;
+    border-radius: 5px;
+    font-family: "Mulish";
+    background-color: aliceblue;
+}
+#sbtn
+{
+    padding: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+    font-family: "Mulish";
+    background-color: aliceblue;
+}
+#lbtn
+{
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 30px;
+    border-radius: 5px;
+    font-family: "Mulish";
+    color: antiquewhite;
+   background-color: orangered;
 }
