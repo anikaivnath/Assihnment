@@ -31,6 +31,9 @@ font-size: 70px;
     padding-top: 10px;
 
 }
+.explo{
+   m
+}
 .btn
 {
     border: solid;
@@ -94,10 +97,27 @@ font-size: 70px;
     padding-right: 20px ;
 }
 #sbtn i{
-    padding-left: 20px ;
-    margin-bottom: 50px;
+    padding-left: 10px ;
+   
 }
 #fbtn i{
-   padding-left: 20px ;
+   
+    margin-left: 30px;
+ 
 }
-
+.img {
+        background-image: url("./ophelie-authier-pnFNoPuilVI-unsplash.jpg");  /* Set the image URL */
+      /* Resize image to cover the entire element */
+        background-position: center;  /* Center the image horizontally and vertically */
+        height:600px;  /* Set the height of the element */
+        width:1000;
+        border-radius: 100px;
+       margin-top: -40px;
+        position: relative;  /* Required for positioning elements on top of the background image */
+      
+}
+.img img {
+    display: none;  /* Hide the actual image element since it's now a background */
+  }
+  
+  
