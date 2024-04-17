@@ -3,10 +3,9 @@
 
 .nav
 { 
-font-family: "Mulish";
-
-    display: flex;
-    justify-content: flex-end;
+   font-family: "Mulish";
+   display: flex;
+   justify-content: flex-end;
    
 
 
@@ -21,12 +20,12 @@ font-family: "Mulish";
     text-align: center;
     margin-top: 95px;
     font-family: "Mulish";
-font-size: xx-large;
-font-size: 70px;
+    font-size: xx-large;
+    font-size: 70px;
     
 }
 .explo p
-{ margin-top: -20px;
+{   margin-top: -20px;
     text-align: center;  
     font-family: "Mulish";
     padding-top: 10px;
@@ -38,10 +37,9 @@ font-size: 70px;
     border: solid;
     width: 800px;
     margin-left: 160px;
-     border-radius: 10px;
-   
+    border-radius: 10px;
     padding: 10px;
-background-color: rgb(168, 197, 250);
+    background-color: rgb(168, 197, 250);
 
    
 }
@@ -61,7 +59,6 @@ background-color: rgb(168, 197, 250);
 #ibtn
 {
     padding: 10px;
-   
     border-radius: 5px;
     font-family: "Mulish";
     background-color: aliceblue;
@@ -70,7 +67,6 @@ background-color: rgb(168, 197, 250);
 #fbtn
 {
     padding: 10px;
- 
     border-radius: 5px;
     font-family: "Mulish";
     background-color: aliceblue;
@@ -78,20 +74,19 @@ background-color: rgb(168, 197, 250);
 #sbtn
 {
     padding: 10px;
-  border-radius: 5px;
- 
+    border-radius: 5px;
     font-family: "Mulish";
     background-color: aliceblue;
 }
 #lbtn
 {
 
- height: 50px;
- padding-right: 50px;
-  border-radius: 5px;
-    font-family: "Mulish";
-    color: antiquewhite;
-   background-color: orangered;
+       height: 50px;
+       padding-right: 50px;
+       border-radius: 5px;
+       font-family: "Mulish";
+       color: antiquewhite;
+       background-color: orangered;
  
 }
  #lbtn i {
@@ -109,13 +104,12 @@ background-color: rgb(168, 197, 250);
 }
 .img {
         background-image: url("./ophelie-authier-pnFNoPuilVI-unsplash.jpg");  /* Set the image URL */
-      /* Resize image to cover the entire element */
         background-position: center;  /* Center the image horizontally and vertically */
-     width: 1100px;
-     height: 600px;
-     margin-left: 100px;
-     border-radius: 100px;
-       margin-top: -40px;
+        width: 1100px;
+        height: 600px;
+        margin-left: 100px;
+        border-radius: 100px;
+        margin-top: -40px;
       /* Required for positioning elements on top of the background image */
       
 }
@@ -140,7 +134,7 @@ background-color: rgb(168, 197, 250);
  }
  .new2
  {
-    padding-top: 60px;
+    padding-top: 40px;
     padding-left: 50px;
  }
  .new2 h1{
@@ -150,5 +144,28 @@ font-size: xx-large;
 font-size: 40px;
 
  }
+ .new2 p
+ {
+    font-family: "Mulish";
+ color: black;
+
+ }
+ .new2 p i
+ {
+font-size:xx-small;
+padding-right: 30px;
+ }
+ .new2 button
+ {
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: orangered;
+    border-radius: 10px;
+    color: bisque;
+ }
+ 
+ 
+ 
 
  
