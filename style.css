@@ -129,5 +129,26 @@ background-color: rgb(168, 197, 250);
     color:white;
  margin-top: 25px;
 }
- 
+ .new .pic
+ {
+    float: right;
+    height: 600px;
+    width: 600px;
+    margin-top: 40px;
+    margin-right: 40px;
+    border-radius: 100px;
+ }
+ .new2
+ {
+    padding-top: 60px;
+    padding-left: 50px;
+ }
+ .new2 h1{
+    text-align: center;
+    font-family: "Mulish";
+font-size: xx-large;
+font-size: 40px;
+
+ }
+
  
