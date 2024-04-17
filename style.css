@@ -172,13 +172,13 @@ padding-right: 30px;
  
  .newsec
  {
-    margin-top: 200px;
+    margin-top: 150px;
  }
  .newsec h1{
     text-align: center;
     font-family: "Mulish";
-font-size: xx-large;
-font-size: 40px;
+    font-size: xx-large;
+    font-size: 40px;
  }
  .newsec p{
     text-align: center;
@@ -188,6 +188,20 @@ font-size: 40px;
  {
     margin-top: -20px;
  }
- 
+ .newimg img
+ {
+    height: 320px;
+    width: 520px;
+    margin: 20px;
+    border-radius: 60px;
+  
+    
+ }
 
+ .newimg
+ {
+    margin-right: 75px;
+    margin-left: 70px;
+   
+ }
  
