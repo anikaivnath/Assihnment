@@ -11,6 +11,7 @@ font-family: "Mulish";
 
 
 }
+
 .home
 {
     color: orangered;
@@ -31,18 +32,16 @@ font-size: 70px;
     padding-top: 10px;
 
 }
-.explo{
-   m
-}
+
 .btn
 {
     border: solid;
     width: 800px;
-    margin-left: 250px;
-
-    border-radius: 10px;
-    margin-top: 50px;
+    margin-left: 160px;
+     border-radius: 10px;
+   
     padding: 10px;
+    background-color:color(srgb red green blue);
    
 }
 .button
@@ -109,15 +108,23 @@ font-size: 70px;
         background-image: url("./ophelie-authier-pnFNoPuilVI-unsplash.jpg");  /* Set the image URL */
       /* Resize image to cover the entire element */
         background-position: center;  /* Center the image horizontally and vertically */
-        height:600px;  /* Set the height of the element */
-        width:1000;
-        border-radius: 100px;
+     width: 1100px;
+     height: 600px;
+     margin-left: 100px;
+     border-radius: 100px;
        margin-top: -40px;
-        position: relative;  /* Required for positioning elements on top of the background image */
+      /* Required for positioning elements on top of the background image */
       
 }
 .img img {
     display: none;  /* Hide the actual image element since it's now a background */
   }
-  
-  
+
+.explo
+{
+    padding-top: 100px;
+    color:black;
+ 
+}
+ 
+ 
