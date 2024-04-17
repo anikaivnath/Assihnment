@@ -131,6 +131,7 @@
     margin-top: 40px;
     margin-right: 40px;
     border-radius: 100px;
+    margin-left: 20px;
  }
  .new2
  {
@@ -140,14 +141,18 @@
  .new2 h1{
     text-align: center;
     font-family: "Mulish";
-font-size: xx-large;
-font-size: 40px;
+    font-size: xx-large;
+    font-size: 40px;
 
  }
  .new2 p
  {
-    font-family: "Mulish";
- color: black;
+     font-family: "Mulish";
+     color:rgb(82, 82, 82);
+     font-style: normal;  
+    text-align: justify;
+    text-justify: inter-word;
+  margin-right: 60px;
 
  }
  .new2 p i
@@ -165,7 +170,24 @@ padding-right: 30px;
     color: bisque;
  }
  
- 
+ .newsec
+ {
+    margin-top: 200px;
+ }
+ .newsec h1{
+    text-align: center;
+    font-family: "Mulish";
+font-size: xx-large;
+font-size: 40px;
+ }
+ .newsec p{
+    text-align: center;
+    color:rgb(82, 82, 82);
+ }
+ .get
+ {
+    margin-top: -20px;
+ }
  
 
  
