@@ -188,7 +188,7 @@ padding-right: 30px;
  .image-gallery {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    gap: 24px;
+    gap: 25px;
     margin-top: 48px;
   }
   .image-gallery > div {
@@ -199,10 +199,9 @@ padding-right: 30px;
     font-size: 28px;
     font-weight: 800;
     color: white;
-    background-repeat: no-repeat;
     background-size: cover;
-    border-radius: 16px;
-    overflow: hidden;
+    border-radius: 18px;
+  
   }
   .spot-Maldives {
     background-image: url(./Rectangle\ 5.png);
@@ -222,7 +221,7 @@ padding-right: 30px;
   }
   .spot-Kashmir {
     background-image: url(./Rectangle\ 9.png);
-    grid-column: span 3 / span 3;
+    grid-column: span 3/ span 3;
   }
   .spot-Bangladesh {
     background-image: url(./Rectangle\ 11.png);
