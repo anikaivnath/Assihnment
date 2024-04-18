@@ -7,8 +7,6 @@
    display: flex;
    justify-content: flex-end;
    
-
-
 }
 
 .home
@@ -110,8 +108,7 @@
         margin-left: 100px;
         border-radius: 100px;
         margin-top: -40px;
-      /* Required for positioning elements on top of the background image */
-      
+      /* Required for positioning elements on top of the background image */     
 }
 .img img {
     display: none;  /* Hide the actual image element since it's now a background */
@@ -121,7 +118,7 @@
 {
     padding-top: 100px;
     color:white;
- margin-top: 25px;
+    margin-top: 25px;
 }
  .new .pic
  {
@@ -188,20 +185,50 @@ padding-right: 30px;
  {
     margin-top: -20px;
  }
- .newimg img
- {
-    height: 320px;
-    width: 520px;
-    margin: 20px;
-    border-radius: 60px;
-  
-    
- }
-
- .newimg
- {
-    margin-right: 75px;
-    margin-left: 70px;
-   
- }
- 
+ .image-gallery {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 24px;
+    margin-top: 48px;
+  }
+  .image-gallery > div {
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+    font-weight: 800;
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 16px;
+    overflow: hidden;
+  }
+  .spot-Maldives {
+    background-image: url(./Rectangle\ 5.png);
+    grid-column: span 6 / span 6;
+  }
+  .spot-Indonesia {
+    background-image: url(./Rectangle\ 8.png);
+    grid-column: span 6 / span 6;
+  }
+  .spot-Srilanka {
+    background-image: url(./Rectangle\ 6.png);
+    grid-column: span 4 / span 4;
+  }
+  .spot-America {
+    background-image: url(./Rectangle\ 7.png);
+    grid-column: span 5 / span 5;
+  }
+  .spot-Kashmir {
+    background-image: url(./Rectangle\ 9.png);
+    grid-column: span 3 / span 3;
+  }
+  .spot-Bangladesh {
+    background-image: url(./Rectangle\ 11.png);
+    grid-column: span 5 / span 5;
+  }
+  .spot-Bandarban {
+    background-image: url(./Rectangle\ 10.png);
+    grid-column: span 7 / span 7;
+  }
