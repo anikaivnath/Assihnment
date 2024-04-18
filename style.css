@@ -231,3 +231,75 @@ padding-right: 30px;
     background-image: url(./Rectangle\ 10.png);
     grid-column: span 7 / span 7;
   }
+  .logo
+  {
+    background-color:rgb(255, 238, 244);
+    height: 250px;
+    width: 550px;
+    border-radius: 20px;
+    font-family: "Mulish";
+    margin-left: 50px;
+   padding:20px;
+    text-align: justify;
+    text-justify: inter-word;
+  }
+  .logo img
+  {
+    padding-top: 10px;
+    padding-bottom: 30px;
+  }
+  .logo p
+  {
+    color:rgb(82, 82, 82);
+  }
+ .map
+{
+    float:right;
+    background-color:rgb(201, 247, 231);
+    height: 250px;
+    width: 550px;
+    border-radius: 20px;
+    font-family: "Mulish";
+    margin-left: 50px;
+    padding:20px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+.map img
+{
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+.map p
+  {
+    color:rgb(82, 82, 82);
+  }
+ .container
+    {
+      display: flex;
+    }
+  
+.price
+{
+  background-color:rgb(245, 203, 245);
+  height: 250px;
+  width: 550px;
+  border-radius: 20px;
+  font-family: "Mulish";
+  margin-left: 50px;
+  padding:20px;
+  text-align: justify;
+  text-justify: inter-word;
+  margin: 50px;
+  margin-left: 29%;
+
+}
+.price img
+{
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+.price p
+  {
+    color:rgb(82, 82, 82);
+  }
