@@ -303,3 +303,42 @@ padding-right: 30px;
   {
     color:rgb(82, 82, 82);
   }
+  .box
+  {
+    margin-top: 50px;
+    border: solid;
+    width: max-content;
+    margin-top: 90px;
+    width: 400px;
+    padding-left: 30px;
+    margin-left: 100px;
+    border-radius: 20px;
+    font-family: "Mulish";
+    border-color: brown;
+    border-width: 2px;
+  }
+  .box input{
+    margin-top: 15px;
+    padding-right: 200px;
+    padding-top: 10px ;
+    padding-bottom: 10px ;
+    border: 10px;
+    background-color: rgb(247, 247, 247);
+    border-radius: 5px;
+    font-family: "Mulish";
+  
+  }
+  .box button{
+    margin-top: 15px;
+    padding-right: 200px;
+    padding-top: 10px ;
+    padding-bottom: 10px ;
+    border: 10px;
+    background-color: orangered;
+    border-radius: 5px;
+    color: azure;
+    padding-right: 168px;
+    padding-left: 150px;
+    font-family: "Mulish";
+  
+  }
