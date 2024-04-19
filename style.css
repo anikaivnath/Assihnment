@@ -400,12 +400,25 @@ padding-right: 30px;
   {
     text-align: center;
     margin-top: 100px;
+    font-size: larger;
+    font-family: "Mulish";
   }
  .lastp{
   margin-top: -30px;
   }
+  .last h1{
+  font-size: 53px;
+  }
   
 .last img {
-  height: 25px;
-  margin-right: 10px;
+  height: 40px;
+  margin-right: 15px;
+ 
+}
+.last p{
+  color:rgb(82, 82, 82);
+}
+.point
+{
+  color: orangered;
 }
