@@ -404,3 +404,8 @@ padding-right: 30px;
  .lastp{
   margin-top: -30px;
   }
+  
+.last img {
+  height: 25px;
+  margin-right: 10px;
+}
