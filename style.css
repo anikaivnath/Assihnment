@@ -305,6 +305,7 @@ padding-right: 30px;
   }
   .box
   {
+    
     margin-top: 50px;
     border: solid;
     width: max-content;
@@ -315,8 +316,18 @@ padding-right: 30px;
     border-radius: 20px;
     font-family: "Mulish";
     border-color: brown;
-    border-width: 2px;
+    border-width: 1px;
+    padding: 60px;
+
   }
+  .line
+  {
+    
+    border-style: solid;
+    color: rgb(231, 228, 228);
+    
+  }
+ 
   .box input{
     margin-top: 15px;
     padding-right: 200px;
@@ -341,4 +352,47 @@ padding-right: 30px;
     padding-left: 150px;
     font-family: "Mulish";
   
+  }
+  .container2
+  {
+    display: flex;
+  }
+  
+  .next {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    margin-top: 88px;
+    margin-left: 50px;
+    height: 400px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    width: 610px;
+    color: white;
+    background-size: cover;
+    border-radius: 18px;
+   
+  
+  }
+  .next {
+    background-image: url(./istockphoto-485371557-612x612.jpg);
+   background-repeat: no-repeat;
+   background-color: brown;
+  }
+  .new7 p{
+    padding-left: 40px;
+   padding-top: 5px;
+  }
+  .new7 h1{
+    margin-top: -30px;
+  }
+  .new7{
+    background-color: orangered;
+    height: 80px;
+    width: max-content;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 25px;
+    border-radius: 20px;
+    transform: rotate(-20deg);
   }
