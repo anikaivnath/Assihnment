@@ -4,17 +4,26 @@
 {
   
   font-family: "Mulish";
-  margin-bottom: 90px ;
-  margin-right: 20px;
+  margin-bottom: -90px;
+  display: flex;
   margin-left: 50px;
-  font-size: 100px;
-  font-size: larger;
+
+
+  
  
+}
+.title h1{
+  height: 45px;
+  margin-right: 30px;
 }
 
 .title  img{
-  margin-right: 20px;
-  padding-top: 50px;
+  margin-right: 10px;
+  height: 30px;
+  margin-top: 25px;
+
+
+ 
 }
 .nav
 { 
@@ -124,7 +133,7 @@
         height: 600px;
         margin-left: 100px;
         border-radius: 100px;
-        margin-top: 50px;
+        margin-top: 40px;
       /* Required for positioning elements on top of the background image */     
 }
 .img img {
