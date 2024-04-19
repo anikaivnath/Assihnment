@@ -1,13 +1,30 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+.title  
+{
+  
+  font-family: "Mulish";
+  margin-bottom: 90px ;
+  margin-right: 20px;
+  margin-left: 50px;
+  font-size: 100px;
+  font-size: larger;
+ 
+}
 
+.title  img{
+  margin-right: 20px;
+  padding-top: 50px;
+}
 .nav
 { 
    font-family: "Mulish";
    display: flex;
    justify-content: flex-end;
+
    
 }
+
 
 .home
 {
@@ -107,7 +124,7 @@
         height: 600px;
         margin-left: 100px;
         border-radius: 100px;
-        margin-top: -40px;
+        margin-top: 50px;
       /* Required for positioning elements on top of the background image */     
 }
 .img img {
@@ -402,6 +419,9 @@ padding-right: 30px;
     margin-top: 100px;
     font-size: larger;
     font-family: "Mulish";
+    margin-top: 100px;
+    padding-top: 100px;
+   
   }
  .lastp{
   margin-top: -30px;
@@ -417,8 +437,33 @@ padding-right: 30px;
 }
 .last p{
   color:rgb(82, 82, 82);
+ 
 }
 .point
 {
   color: orangered;
+}
+
+#social
+{
+  height: 20px;
+}
+.cont3
+{
+  border: solid;
+ width: 880px;
+  color:rgb(206, 191, 191);
+  margin-top: 50px;
+  margin-left:200px ;
+}
+.end
+{
+  margin-top: 80px;
+  text-align: center;
+  font-family: "Mulish";
+}
+.cont
+{
+  background-color:rgb(240, 240, 240);
+  height: 600px;
 }
